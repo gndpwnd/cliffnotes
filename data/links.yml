@@ -1,0 +1,25 @@
+# Example
+#- group: Social media
+#  items:
+#    - title: reddit
+#      url: https://www.reddit.com
+#      icon: fab fa-reddit
+#    - title: Facebook
+#      url: https://www.facebook.com
+#      icon: fab fa-facebook
+#    - title: Instagram
+#      url: https://www.instagram.com
+#      icon: fab fa-instagram
+#    - title: Spotify
+#      url: https://www.spotify.com
+#      icon: fab fa-spotify  
+
+
+- group: Downloads
+  items:
+    - title: Business
+      url: https://cliffnotes.dev00ps.com/pdfs/Business_Knowledge.pdf
+      icon: fa fa-briefcase
+    - title: Relationships
+      url: https://cliffnotes.dev00ps.com/pdfs/Relationships_Knowledge.pdf
+      icon: fa fa-venus-mars
