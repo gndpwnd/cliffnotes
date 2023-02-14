@@ -17,7 +17,7 @@
         {{ range .Site.Data.links }}
             <div id="groupListEntry" class="card">
                 <div class="card-body">
-                    <h5 class="card-title groupTitle">{{ .group }}</h5>                        
+                    <h2 class="card-title groupTitle">{{ .group }}</h2>                        
                     <ul class="list-group list-group-flush groupListList">
                         {{ range .items }}
                             <li class="list-group-item groupListListItem"><a href="{{ .url }}" target="_self" class="groupLink"><i class="{{ .icon }}"></i>&nbsp;<span class="groupText">{{ .title | safeHTML }}</span></a></li>
