@@ -1,10 +1,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="description" content="">
-<meta name="author" content="">
-<link rel="icon" href="/favicon.ico">
-<!--<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">-->
+<meta http-equiv="Cache-control" content="public">
+<meta http-equiv="Cache-control" content="max-age=604800">
+<meta http-equiv="Content-Security-Policy" content="img-src 'self'; child-src 'none'; object-src 'self';"/>
+<meta name="description" content="dev00ps cliffnotes - catch the cliffnotes of life lessons in downloadable pdfs">
+<link rel="icon" href="/icons/icon.ico">
 
 {{ template "_internal/schema.html" . }}
 {{ template "_internal/opengraph.html" . }}
@@ -17,10 +16,3 @@
 {{ $cssmain := resources.Get "/css/main.css" }}
 {{ $allcss := slice $cssbootstrap $cssfontawesome $cssmain | resources.Concat "/css/vendor.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $allcss.RelPermalink }}">
-<meta http-equiv="Cache-control" content="public">
-<meta http-equiv="Cache-control" content="max-age=604800">
-<meta
-  http-equiv="Content-Security-Policy"
-  content="img-src 'self'; child-src 'none'; object-src 'self';" 
-/>
-<meta name="description" content="dev00ps cliffnotes - catch the cliffnotes of life lessons in downloadable pdfs">
