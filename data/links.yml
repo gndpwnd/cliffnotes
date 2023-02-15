@@ -14,12 +14,26 @@
 #      url: https://www.spotify.com
 #      icon: fab fa-spotify  
 
+- group: Ideas
+  items:
+    - title: Meta Life
+      url: /pdfs/ideas/Meta-Life.pdf
+      icon: fa-solid fa-compass-drafting
+    - title: Threat Map
+      url: /pdfs/ideas/Threat-Map.pdf
+      icon: fa-solid fa-users-viewfinder
 
-- group: Downloads
+- group: Knowledge
   items:
     - title: Business
-      url: https://cliffnotes.dev00ps.com/pdfs/Business_Knowledge.pdf
+      url: /pdfs/knowledge/Business-Knowledge.pdf
       icon: fa fa-briefcase
     - title: Relationships
-      url: https://cliffnotes.dev00ps.com/pdfs/Relationships_Knowledge.pdf
+      url: /pdfs/knowledge/Relationships-Knowledge.pdf
       icon: fa fa-venus-mars
+
+- group: Wisdom
+  items:
+    - title: How to Worry
+      url: /pdfs/wisdom/How-2-Worry.pdf
+      icon: fa-solid fa-dumbbell

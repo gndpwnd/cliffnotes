@@ -11,8 +11,11 @@
 
 {{ if .Site.RSSLink }}<link rel="alternate" href="{{ .Site.RSSLink }}" type="application/rss+xml" title="{{ .Site.Title }}"/>{{ end }}
 
-{{ $cssbootstrap := resources.Get "/css/bootstrap.min.css" }}
-{{ $cssfontawesome := resources.Get "/css/fontawesome-free-5.13.0-web-all.min.css" }}
 {{ $cssmain := resources.Get "/css/main.css" }}
-{{ $allcss := slice $cssbootstrap $cssfontawesome $cssmain | resources.Concat "/css/vendor.css" | minify | fingerprint }}
+{{ $cssideas := resources.Get "/css/ideas.css" }}
+{{ $cssbootstrap := resources.Get "/css/bootstrap.min.css" }}
+{{ $cssfontawesome1 := resources.Get "/fontawesome-6.3.0/css/fontawesome.css" }}
+{{ $cssfontawesome2 := resources.Get "/fontawesome-6.3.0/css/brands.css" }}
+{{ $cssfontawesome3 := resources.Get "/fontawesome-6.3.0/css/solid.css" }}
+{{ $allcss := slice $cssmain $cssideas $cssbootstrap $cssfontawesome1 $cssfontawesome2 $cssfontawesome3 | resources.Concat "/css/vendor.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $allcss.RelPermalink }}">
