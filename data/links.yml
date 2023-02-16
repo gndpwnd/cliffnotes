@@ -31,6 +31,9 @@
     - title: Relationships
       url: /pdfs/knowledge/Relationships-Knowledge.pdf
       icon: fa fa-venus-mars
+    - title: List of Sayings
+      url: /pdfs/knowledge/List-of-Sayings.pdf
+      icon: fa-solid fa-magnifying-glass
 
 - group: Wisdom
   items:
