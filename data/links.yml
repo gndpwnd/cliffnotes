@@ -28,6 +28,9 @@
     - title: Business
       url: /pdfs/knowledge/Business-Knowledge.pdf
       icon: fa fa-briefcase
+    - title: Environment
+      url: /pdfs/knowledge/Environment-Knowledge.pdf
+      icon: fa-solid fa-seedling
     - title: Relationships
       url: /pdfs/knowledge/Relationships-Knowledge.pdf
       icon: fa fa-venus-mars
@@ -40,3 +43,6 @@
     - title: How to Worry
       url: /pdfs/wisdom/How-2-Worry.pdf
       icon: fa-solid fa-dumbbell
+    - title: Preparedness Checklists
+      url: /pdfs/wisdom/Preparedness-Checklists.pdf
+      icon: fa-regular fa-explosion
