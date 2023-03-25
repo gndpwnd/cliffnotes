@@ -16,33 +16,45 @@
 
 - group: Ideas
   items:
+    
     - title: Meta Life
       url: /pdfs/ideas/Meta-Life.pdf
       icon: fa-solid fa-compass-drafting
+    
     - title: Threat Map
       url: /pdfs/ideas/Threat-Map.pdf
       icon: fa-solid fa-users-viewfinder
 
 - group: Knowledge
   items:
+    
     - title: Business
       url: /pdfs/knowledge/Business-Knowledge.pdf
       icon: fa fa-briefcase
+    
     - title: Environment
       url: /pdfs/knowledge/Environment-Knowledge.pdf
       icon: fa-solid fa-seedling
+    
     - title: Relationships
       url: /pdfs/knowledge/Relationships-Knowledge.pdf
       icon: fa fa-venus-mars
+    
     - title: List of Sayings
       url: /pdfs/knowledge/List-of-Sayings.pdf
       icon: fa-solid fa-magnifying-glass
 
 - group: Wisdom
   items:
+    
     - title: How to Worry
       url: /pdfs/wisdom/How-2-Worry.pdf
-      icon: fa-solid fa-dumbbell
+      icon: fa-solid fa-face-angry
+
+    - title: Timeboxing
+      url: /pdfs/wisdom/Timebox.pdf
+      icon: fa-solid fa-clock
+    
     - title: Preparedness Checklists
       url: /pdfs/wisdom/Preparedness-Checklists.pdf
       icon: fa-regular fa-explosion
