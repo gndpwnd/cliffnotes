@@ -21,6 +21,10 @@
       url: /pdfs/ideas/Meta-Life.pdf
       icon: fa-solid fa-compass-drafting
     
+    - title: Personal Finance
+      url: /pdfs/ideas/Personal-Finance.pdf
+      icon: fa-solid fa-money-bill
+    
     - title: Threat Map
       url: /pdfs/ideas/Threat-Map.pdf
       icon: fa-solid fa-users-viewfinder
