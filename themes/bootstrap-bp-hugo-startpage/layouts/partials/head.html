@@ -9,8 +9,6 @@
 {{ template "_internal/opengraph.html" . }}
 {{ template "_internal/twitter_cards.html" . }}
 
-{{ if .Site.RSSLink }}<link rel="alternate" href="{{ .Site.RSSLink }}" type="application/rss+xml" title="{{ .Site.Title }}"/>{{ end }}
-
 {{ $cssmain := resources.Get "/css/main.css" }}
 {{ $cssideas := resources.Get "/css/ideas.css" }}
 {{ $cssbootstrap := resources.Get "/css/bootstrap.min.css" }}
